@@ -1,6 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
+const Loader = () => {
+  return (
+    <Loading>
+      <div className="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </Loading>
+  );
+};
+
+export default Loader;
+
 const Loading = styled.div`
   text-align: center;
   .lds-ellipsis {
@@ -59,18 +74,3 @@ const Loading = styled.div`
     }
   }
 `;
-
-const Loader = () => {
-  return (
-    <Loading>
-      <div class="lds-ellipsis">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </Loading>
-  );
-};
-
-export default Loader;

@@ -14,7 +14,7 @@ const H1 = styled.h1`
 const Heading = () => {
   return (
     <Header>
-      <H1>Unsplash</H1>
+      <H1>Unsplash - BEEZER</H1>
       <p>The Internet source of freely usable images.</p>
     </Header>
   );
